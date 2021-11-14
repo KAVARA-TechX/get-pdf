@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title of the document</title>
-  </head>
+    <title> Little woods pdf</title>
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.7.570/build/pdf.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #pdf-viewer {
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.1);
+          overflow: auto;
+        }
+        
+        .pdf-page-canvas {
+          display: block;
+          margin: 5px auto;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+      </style>
+      
+      <script src="./script.js"></script>
+</head>
   <body>
-    <iframe src="pdf1.pdf" width="100%" height="700px">
-    </iframe>
+    <div id='pdf-viewer'></div>
   </body>
 </html>
