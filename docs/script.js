@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    url = 'https://kavara-techx.github.io/get-pdf/pdf1.pdf';
+    url = 'https://kavara-techx.github.io/littlewoods/pdf1.pdf';
     var thePdf = null;
     var scale = 1;
     
